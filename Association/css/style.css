@@ -1,0 +1,194 @@
+body {
+    background-color: white;
+} 
+
+/******accueil css*****/
+
+header {
+    background-color:RGB(255,207,241);
+    display: flex;
+    border-radius: 5px;
+}
+
+.image img {
+    border-radius: 250px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+ul{
+    background-color:RGB(255,207,241);
+    padding: 10px;
+    text-align: right;
+    border-radius: 5px;
+}
+
+.title h1 {
+    margin-left: 210px;
+    padding-top: 70px;
+}
+
+a{  
+    padding: 5px;
+    margin: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.style a:hover{
+    background-color:RGB(255,207,241);
+}
+
+.menu a:hover{
+    background-color:RGB(255,207,241);
+}
+
+.content{
+    display: flex;
+}
+
+.content article{
+    display: flex;
+}
+
+.accueil h2 {
+    text-align: center;
+    background-color:RGB(255,207,241);
+    border-radius: 5px;
+}
+
+/********activité******/
+
+.act {
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.act article {
+    background-color:RGB(255,207,241);
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 5px;
+    box-shadow: 5px 5px 8px rgb(223, 216, 216);
+    border-radius: 8px;
+
+}
+
+.activité h2 {
+    text-align: center;
+}
+
+.activité figure {
+    text-align: center;
+
+}
+
+.activité p {
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+
+/******membres******/
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.membre {
+    flex: 0 1 calc(50% - 1em);
+    display: flex;
+    
+}
+
+.membre  figure {
+    text-align: center;
+    
+}
+
+.membre img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.membre h2 {
+    text-align: center;
+}
+
+.membre p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.m1{
+    box-shadow: 5px 5px 8px rgb(223, 216, 216);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.m2 {
+    box-shadow: 5px 5px 8px rgb(223, 216, 216);
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.m3 {
+    margin-top: 100px;
+    box-shadow: 5px 5px 8px rgb(223, 216, 216);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.m4 {
+    margin-top: 100px;
+    box-shadow: 5px 5px 8px rgb(223, 216, 216);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+
+/*******contact******/
+
+.contact {
+    text-align: center;
+}
+
+footer {
+    background-color:RGB(255,207,241);
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    margin-top: 70px;
+    border-radius: 8px;
+}
+
+textarea {
+    width: 20%;
+    height: 70%;
+    border-radius: 7px;
+    border: none;
+    border: solid .5px black;
+}
+
+/*** media queries***/
+
+@media screen and (min-width: 50em){
+    main {
+      width: 100%;
+    
+    }
+    
+}
+
+
